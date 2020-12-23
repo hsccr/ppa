@@ -7,8 +7,8 @@ A PPA repository for my packages:
 # Usage
 
 ```bash
-curl -SsL https://assafmo.github.io/ppa/ubuntu/KEY.gpg | sudo apt-key add -
-sudo curl -SsL -o /etc/apt/sources.list.d/assafmo.list https://assafmo.github.io/ppa/ubuntu/assafmo.list
+curl -SsL https://www.emstone.com/data/ubuntu/KEY.gpg | sudo apt-key add -
+sudo curl -SsL -o /etc/apt/sources.list.d/assafmo.list https://www.emstone.com/data/ubuntu/assafmo.list
 sudo apt update
 sudo apt install joincap xioc sqlitequeryserver
 ```
